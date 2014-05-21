@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  prework_done: false
+  has_paid: false
+  enrollment_date: 2014-05-19
+
+two:
+  prework_done: false
+  has_paid: false
+  enrollment_date: 2014-05-19

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>SriProj</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <% flash.each do |name, message| %>
+   <div class="flash-message flash-message-<%= name %>">
+    <%= message %>
+   </div>
+  <% end %>
+
+    <% if current_user %>
+   <p> hello, <%= current_user.email %> </p>
+   <%= link_to 'Logout', sessions_path(session), method: :delete, data: {confirm: 'hello'} %>
+  <% else %>
+   <%= link_to 'Please login', login_path %>
+  <% end %>
+<%= yield %>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</body>
+</html>

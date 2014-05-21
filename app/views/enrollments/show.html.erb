@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Prework done:</b>
+  <%= @enrollment.prework_done %>
+</p>
+
+<p>
+  <b>Has paid:</b>
+  <%= @enrollment.has_paid %>
+</p>
+
+<p>
+  <b>Enrollment date:</b>
+  <%= @enrollment.enrollment_date %>
+</p>
+
+
+<%= link_to 'Edit', edit_enrollment_path(@enrollment) %> |
+<%= link_to 'Back', enrollments_path %>

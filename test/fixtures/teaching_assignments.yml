@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  rate: 
+  assign_date: 2014-05-19
+
+two:
+  rate: 
+  assign_date: 2014-05-19
