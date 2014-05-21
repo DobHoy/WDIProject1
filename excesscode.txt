@@ -1,0 +1,16 @@
+
+    <div class="field">
+
+
+      <%= f.label :role %>
+     <%= select_tag :role, options_for_select([ "VISA", "MasterCard" ], "MasterCard") %>
+     select tag &  option for select 
+    <%= collection_select(:user,
+      :role,
+      collectionOfRoles,
+      :??,
+      :??,
+      {:include_blank => 'Please select'}) %>
+
+
+    </div>

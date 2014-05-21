@@ -84,9 +84,9 @@ us3 = User.create!(
 SUPER = User.create!(
   :firstname   =>  "SADMIN",
   :lastname  => "SADMIN",
-  :email  => "superadmin",
+  :email  => "admin",
   :password => "randomstring",
-  :role  => "superadmin"
+  :role  => "admin"
 )
 London = Location.create!(
   :name => "London"

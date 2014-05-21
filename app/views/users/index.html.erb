@@ -1,5 +1,80 @@
 <h1>Listing users</h1>
 
+    <p>Students</p>
+<% @users.each do |user| %>
+
+    <% if user.role == "student" %>
+    <%= user.firstname %>
+   <% end %>
+<% end %>
+
+<p>Instructors</p>
+<% @users.each do |user| %>
+
+    <% if user.role == "instructor" %>
+    <%= user.firstname %>
+   <% end %>
+<% end %>
+
+<p>Producers</p>
+<% @users.each do |user| %>
+
+    <% if user.role == "producer" %>
+    <%= user.firstname %>
+   <% end %>
+<% end %>
+
+<p>Regional Heads</p>
+<% @users.each do |user| %>
+
+    <% if user.role == "rhead" %>
+    <%= user.firstname %>
+   <% end %>
+<% end %>
+
+<p>Admins</p>
+<% @users.each do |user| %>
+
+    <% if user.role == "admin" %>
+    <%= user.firstname %>
+   <% end %>
+<% end %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <table>
   <tr>
     <th>Firstname</th>
