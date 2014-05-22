@@ -40,6 +40,10 @@ class CoursesController < ApplicationController
   # POST /courses
   # POST /courses.json
   def create
+    # Binding.pry
+    puts "YOYO"
+    puts params[:course].to_s
+    puts "SEEME"
     @course = Course.new(params[:course])
 
     respond_to do |format|

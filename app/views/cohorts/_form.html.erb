@@ -11,18 +11,32 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
-  </div>
+
+
+<p>Hi!!!</p>
+
+<p>Type of program?</p>
+
+<%= select_tag :program, options_for_select(listofPrograms) %>
+
+<%= select_tag :location, options_for_select(listofLocations) %>
+
+
+<%= f.number_field :iteration %>
+ 
+
+ 
   <div class="field">
     <%= f.label :start_date %><br />
     <%= f.date_select :start_date %>
   </div>
-  <div class="field">
-    <%= f.label :end_date %><br />
-    <%= f.date_select :end_date %>
+  
+<div class="field">
+    <%= f.label "Give it a name?" %><br />
+    <%= f.text_field :start_date %>
   </div>
+
+
   <div class="actions">
     <%= f.submit %>
   </div>

@@ -18,6 +18,8 @@ end
 gem 'bcrypt-ruby', '~> 3.0.0'
 # Gems used only for assets and not required
 # in production environments by default.
+gem 'cancan'
+
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'

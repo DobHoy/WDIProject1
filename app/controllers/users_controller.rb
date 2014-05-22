@@ -1,6 +1,5 @@
 class UsersController < ApplicationController
-  # GET /users
-  # GET /users.json
+
   def index
     @users = User.all
 
@@ -21,9 +20,9 @@ class UsersController < ApplicationController
     
   end
 
-  # GET /users/1/edit
+ 
   def edit
-    @user = User.find(params[:id])
+     @user = User.find(params[:id])
   end
 
 
@@ -45,12 +44,18 @@ class UsersController < ApplicationController
 
   
   def update
- 
-    @user = User.find(params[:id])
 
-    @user.save
-   redirect_to users_path
-   
+    @user = User.find(params[:id])
+    @user.update_attributes(params[:user])
+
+    puts "redirecting"
+
+    case @user.role
+    when "instructor"
+      redirect_to new_teaching_assignment_path
+    else
+      redirect_to @user
+    end
     
   end
 
