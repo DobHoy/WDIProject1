@@ -1,0 +1,33 @@
+Script started on Fri May 23 12:41:02 2014
+[1m[7m%[27m[1m[0m                                                                                                                                                        ]2;srikanthnarayanamohan@Srikanths-MacBook-Air: ~/Desktop/PROJECT1SRI/test1/sriProj]1;..test1/sriProj[0m[27m[24m[J[01;32m➜ [01;32m [36msriProj [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=lls[?1l>
+]2;ls -G]1;lsGemfile        README.md      Rakefile       [1m[36mconfig[39;49m[0m         [1m[36mdb[39;49m[0m             excesscode.txt [1m[36mlog[39;49m[0m            rand           [1m[36mtest[39;49m[0m           [1m[36mvendor[39;49m[0m
+Gemfile.lock   README.rdoc    [1m[36mapp[39;49m[0m            config.ru      [1m[36mdoc[39;49m[0m            [1m[36mlib[39;49m[0m            [1m[36mpublic[39;49m[0m         [1m[36mscript[39;49m[0m         [1m[36mtmp[39;49m[0m            weblayout.txt
+[1m[7m%[27m[1m[0m                                                                                                                                                        ]2;srikanthnarayanamohan@Srikanths-MacBook-Air: ~/Desktop/PROJECT1SRI/test1/sriProj]1;..test1/sriProj[0m[27m[24m[J[01;32m➜ [01;32m [36msriProj [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=lls -la[?1l>
+]2;ls -G -la]1;lstotal 96
+drwxr-xr-x  24 srikanthnarayanamohan  staff   816 23 May 12:41 [1m[36m.[39;49m[0m
+drwxr-xr-x   3 srikanthnarayanamohan  staff   102 19 May 15:47 [1m[36m..[39;49m[0m
+drwxr-xr-x  12 srikanthnarayanamohan  staff   408 23 May 12:41 [1m[36m.git[39;49m[0m
+-rw-r--r--   1 srikanthnarayanamohan  staff   430 19 May 15:47 .gitignore
+-rw-r--r--   1 srikanthnarayanamohan  staff  1008 22 May 13:24 Gemfile
+-rw-r--r--   1 srikanthnarayanamohan  staff  3368 22 May 13:24 Gemfile.lock
+-rw-r--r--   1 srikanthnarayanamohan  staff    21 21 May 14:03 README.md
+-rw-r--r--   1 srikanthnarayanamohan  staff  9220 19 May 15:47 README.rdoc
+-rw-r--r--   1 srikanthnarayanamohan  staff   272 19 May 15:47 Rakefile
+drwxr-xr-x   8 srikanthnarayanamohan  staff   272 19 May 15:47 [1m[36mapp[39;49m[0m
+drwxr-xr-x  10 srikanthnarayanamohan  staff   340 19 May 15:47 [1m[36mconfig[39;49m[0m
+-rw-r--r--   1 srikanthnarayanamohan  staff   157 19 May 15:47 config.ru
+drwxr-xr-x   7 srikanthnarayanamohan  staff   238 22 May 11:59 [1m[36mdb[39;49m[0m
+drwxr-xr-x   3 srikanthnarayanamohan  staff   102 19 May 15:47 [1m[36mdoc[39;49m[0m
+-rw-r--r--   1 srikanthnarayanamohan  staff   770 22 May 16:23 excesscode.txt
+drwxr-xr-x   4 srikanthnarayanamohan  staff   136 19 May 15:47 [1m[36mlib[39;49m[0m
+drwxr-xr-x   4 srikanthnarayanamohan  staff   136 19 May 15:53 [1m[36mlog[39;49m[0m
+drwxr-xr-x   7 srikanthnarayanamohan  staff   238 22 May 17:07 [1m[36mpublic[39;49m[0m
+-rw-r--r--   1 srikanthnarayanamohan  staff    43 23 May 12:41 rand
+drwxr-xr-x   3 srikanthnarayanamohan  staff   102 19 May 15:47 [1m[36mscript[39;49m[0m
+drwxr-xr-x   8 srikanthnarayanamohan  staff   272 19 May 15:47 [1m[36mtest[39;49m[0m
+drwxr-xr-x   7 srikanthnarayanamohan  staff   238 20 May 11:47 [1m[36mtmp[39;49m[0m
+drwxr-xr-x   4 srikanthnarayanamohan  staff   136 19 May 15:47 [1m[36mvendor[39;49m[0m
+-rw-r--r--   1 srikanthnarayanamohan  staff   169 22 May 15:06 weblayout.txt
+[1m[7m%[27m[1m[0m                                                                                                                                                        ]2;srikanthnarayanamohan@Srikanths-MacBook-Air: ~/Desktop/PROJECT1SRI/test1/sriProj]1;..test1/sriProj[0m[27m[24m[J[01;32m➜ [01;32m [36msriProj [01;34mgit:([31mmaster[34m) [33m✗[00m[00m[01;34m [00m[K[?1h=eeix e exit[?1l>
+]2;exit]1;exit
+Script done on Fri May 23 12:41:14 2014
