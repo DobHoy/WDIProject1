@@ -140,48 +140,63 @@ NIGHT = Period.create!(
 
 WDI = Program.create!(
   :name => "WDI",
-  :description => "OMG WDI IS SO COOL"
+  :description => "OMG WDI IS SO COOL",
+  :longname => "Web Development Intensive"
   )
 
 UXI = Program.create!(
   :name => "UXI",
-  :description => "OMG UXI IS SO COOL"
+  :description => "OMG UXI IS SO COOL",
+  :longname => "User Experience Intensive"
   )
 BEWD = Program.create!(
   :name => "BEWD",
-  :description => "OMG BEWD IS SO COOL"
+  :description => "This course introduces students to 
+  web application programming which allows one to 
+  create robust, back-end Rails applications that 
+  communicate with both the front-end of a site, 
+  and back-end data stores.",
+  :longname => "Back End Web Developement"
   )
 DS = Program.create!(
   :name => "DS",
-  :description => "OMG DS IS SO COOL"
+  :description => "OMG DS IS SO COOL",
+  :longname => "Data Science"
   )
 FEWD = Program.create!(
   :name => "FEWD",
-  :description => "OMG FEWD IS SO COOL"
+  :description => "OMG FEWD IS SO COOL",
+  :longname => "Front End Web Development"
   )
 SENG = Program.create!(
   :name => "SENG",
-  :description => "OMG SENG IS SO COOL"
+  :description => "OMG SENG IS SO COOL",
+  :longname => "Software Enginnering"
   )
 DM = Program.create!(
   :name => "DM",
-  :description => "OMG DM IS SO COOL"
+  :description => "OMG DM IS SO COOL",
+  :longname => "Digital Marketing"
   )
 BFT = Program.create!(
   :name => "BFT",
-  :description => "OMG BFT IS SO COOL"
+  :description => "OMG BFT IS SO COOL",
+  :longname => "Business Fundamentals and tatics"
   )
 PM = Program.create!(
   :name => "PM",
-  :description => "OMG PM IS SO COOL"
+  :description => "OMG PM IS SO COOL",
+  :longname => "Product Management"
   )
 UXE = Program.create!(
   :name => "UXE",
-  :description => "OMG UXE IS SO COOL"
+  :description => "OMG UXE IS SO COOL", 
+  :longname => "User Experience"
   )
 WKC = Program.create!(
   :name => "WKC",
-  :description => "OMG WKC IS SO COOL"
+  :description => "OMG WKC IS SO COOL",
+  :longname => "Workshop and classes"
   )
 
 

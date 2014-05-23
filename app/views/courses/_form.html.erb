@@ -20,7 +20,8 @@
     <%= f.number_field :iteration %>
   </div>
 
-
+  <%= f.collection_select :program_id, Program.order(:longname), :id, :longname %>
+  <%= f.collection_select :location_id, Location.order(:name), :id, :name %>
  
 
  

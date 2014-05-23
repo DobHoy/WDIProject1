@@ -1,25 +1,20 @@
-<h1>Listing programs</h1>
+<h1>Welcome to GA</h1>
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Description</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
+ <div class="container">
+<h3>We're an educational company offering the following programs:</h3>
+</div>
 
-<% @programs.each do |program| %>
-  <tr>
-    <td><%= program.name %></td>
-    <td><%= program.description %></td>
-    <td><%= link_to 'Show', program %></td>
-    <td><%= link_to 'Edit', edit_program_path(program) %></td>
-    <td><%= link_to 'Destroy', program, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
-</table>
 
-<br />
 
-<%= link_to 'New Program', new_program_path %>
+ <div class="container">
+    <% @programs.each do |program| %>
+        <div class="container">
+        <%= link_to "#{program.longname}", program %>
+        <%= link_to('Delete', program_path(program), method: :delete, :class => "btn btn-xs btn-danger")  if can?(:destroy, program) %>
+
+          <%= link_to('Edit', edit_program_path(program), :class => "btn btn-xs btn-success")  if can?(:edit, program) %>
+    </div>
+    <% end %>
+ </div>
+
+

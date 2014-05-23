@@ -13,16 +13,15 @@
 
 
 
-<p>Hi!!!</p>
+  <p>Hi!!!</p>
 
-<p>Type of program?</p>
-
-<%= select_tag :program, options_for_select(listofPrograms) %>
-
-<%= select_tag :location, options_for_select(listofLocations) %>
+  <p>Type of program?</p>
 
 
-<%= f.number_field :iteration %>
+
+
+
+  <%= f.number_field :iteration %>
  
 
  
@@ -31,7 +30,7 @@
     <%= f.date_select :start_date %>
   </div>
   
-<div class="field">
+  <div class="field">
     <%= f.label "Give it a name?" %><br />
     <%= f.text_field :start_date %>
   </div>

@@ -16,12 +16,12 @@ module ApplicationHelper
       # end
 
 
-    def listofPrograms
-        Program.all.map{ |p| p.name }
-    end
+    # def listofPrograms
+    #     Program.all.map{ |p| p.name }
+    # end
 
-    def listofLocations
-      Location.all.map{ |l| l.name  }
-    end
+    # def listofLocations
+    #   Location.all.map{ |l| l.name  }
+    # end
 
 end

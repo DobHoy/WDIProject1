@@ -15,7 +15,7 @@
   <% end %>
 
     <% if current_user %>
-   <p> hello, <%= current_user.email %> </p>
+   <p> hello, <%= current_user.firstname %> </p>
    <%= link_to 'Logout', session_path(session), method: :delete, data: {confirm: 'hello'} %>
   <% else %>
    <%= link_to 'Please login', login_path %>

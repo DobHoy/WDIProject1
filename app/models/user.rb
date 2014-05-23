@@ -13,4 +13,8 @@ class User < ActiveRecord::Base
 
   has_many :courses, foreign_key: :producer_id
 
+  def role?(role)
+  self.role.to_s == role.to_s
+  end
+
 end

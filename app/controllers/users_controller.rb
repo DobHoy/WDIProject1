@@ -2,22 +2,16 @@ class UsersController < ApplicationController
 
   def index
     @users = User.all
-
-    
   end
 
  
   def show
-    @user = User.find(params[:id])
-
-    
+    @user = User.find(params[:id])  
   end
 
   
   def new
-    @user = User.new
-
-    
+    @user = User.new  
   end
 
  
@@ -31,8 +25,6 @@ class UsersController < ApplicationController
     @user = User.new(params[:user])
     # Default to student, role reassigned by producer later
     @user.role = "student" 
-
-
 
        if @user.save
        redirect_to users_path
@@ -63,7 +55,6 @@ class UsersController < ApplicationController
   def destroy
     @user = User.find(params[:id])
     @user.destroy
-
-    
   end
+
 end
